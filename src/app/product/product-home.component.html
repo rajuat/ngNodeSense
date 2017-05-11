@@ -1,0 +1,9 @@
+<h2>Product Home</h2>
+
+<div>
+    <a [routerLink]="['list', {source: 'home'}]" class="button">List</a>
+    <a routerLink="/products/create" class="button">Create</a>
+    <a routerLink="/products/search" class="button">Search</a>
+</div>
+
+<router-outlet></router-outlet>

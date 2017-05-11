@@ -1,0 +1,19 @@
+<h1>Product List</h1>
+
+<input type="text" name="year" [(ngModel)]="year"/>
+<div class="flex two">
+    <div *ngFor="let product of products | byYear: year">
+        <article class="card">
+            <header>
+                {{product.name}}
+            </header>
+        
+        <p>Year: {{ product.year }}</p>
+        <p>Weight: {{ product.weight | uppercase}}</p>
+        
+        <footer>
+            <a [routerLink]="['/products', 'edit', product.id]" class="success">Edit</a>
+        </footer>
+        </article>
+    </div>
+</div>

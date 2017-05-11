@@ -46,6 +46,7 @@
     "zone.js": "^0.7.4"
   },
   "devDependencies": {
+    "@angular/cli": "^1.0.3",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "browserify": "^14.1.0",

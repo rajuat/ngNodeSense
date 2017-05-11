@@ -1,0 +1,23 @@
+<h2> {{ title }} </h2>
+
+<p>{{ a * b }}</p>
+
+<button (click)="showHide($event)">Show/Hide</button>
+
+<h4>Members</h4>
+#memberElement
+<input type="text" name="member" #memberElement/>
+[(ngModel)]
+<input type="text" name="memberForm" [ngModel] = "member" (ngModelChange)="member=$event"/>
+
+<span>You are typing {{member}}</span>
+
+<button (click)="addMember(memberElement.value)">Add member</button>
+<!--<button (click)="addMemberA()">Add member by another</button>-->
+
+<button on-click="add()">Add ngModel</button>
+
+<ul *ngIf="show">
+    <li *ngFor="let member of members">{{ member }}</li>
+</ul>
+

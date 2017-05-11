@@ -1,0 +1,12 @@
+<h2>Home</h2>
+
+<button (click)="showLikes=!showLikes">Show/Hide</button>
+<div *ngIf="showLikes">
+<likes  [count]="totalLikes" (countChange)="onChangedCount($event)"></likes>
+
+<h2>totalPageLikes</h2>
+<likes [count]="totalPageLikes" (countChange)="totalPageLikes=$event"></likes>
+
+<h2>totalHomePageLikes</h2>
+<likes [(count)]="totalHomePageLikes"></likes>
+</div>

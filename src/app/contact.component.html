@@ -1,0 +1,6 @@
+<h2>Contact us</h2>
+<input type="text" #cityName />
+<button (click)="addCity()">Add City</button>
+<ul>
+    <li *ngFor="let branch of branches"> {{ branch.city }}</li>
+</ul>

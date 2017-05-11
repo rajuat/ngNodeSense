@@ -1,0 +1,62 @@
+
+
+
+
+How two projects can talk to each other?
+Angular in WPS?
+HOw to deploy to jboss?
+
+Is anugular the best? for Banking?
+For ecommerce? for websites?
+
+
+
+# or HTML5 mode
+
+for Child - locationservice not included
+
+matrix url
+
+
+single page aplication - javascript compile
+
+ng 1 - mvc - digest cycle
+ng 2 - component model - chain direction algorithm
+
+component - single resonsible
+
+coffee script - js to ruby
+
+server side js - nodejs - js without a browser
+
+
+require / import - common spec
+each js is a pacakage in java
+
+
+hoisting - var
+let keywork block level
+
+
+... rest operator
+
+no static variable only functions
+
+es6+ 
+
+fat arrow =>
+
+backquote
+
+NPM INIT??
+
+syntatic sugar - constructor(private obj: Obj)
+
+reflection lib - core js - for decorator
+
+typescriptlang.org
+
+
+native view from ng2
+
+
